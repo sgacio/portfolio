@@ -7,16 +7,74 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 7rem;
   min-height: 100%;
   background-color: black;
+  background-image: url(./images/space.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-section {
-  background-image: url(./images/space.png);
-  width: 58%;
+blockquote {
+  background-color: white;
+  border: .4rem solid none;
+  border-radius: 5%;
+  padding: 2rem;
+  margin-top: -3rem;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.top-image>img {
+  border: .4rem solid none;
+  border-radius: 10%;
+  margin: 0;
+  padding: 0;
+  height: 12rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 1rem;
+  margin-top: 5rem;
 }
 
 nav {
-  background-color: rgb(2, 2, 48);
+  margin-top: 2.5rem;
+}
+
+.words-on-page {
+  color: aliceblue;
+}
+
+.above-words {
+  color: aliceblue;
+}
+
+article>img {
+  height: 30;
+}
+
+.bottom-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  color: aliceblue;
+  text-align: center;
 }
