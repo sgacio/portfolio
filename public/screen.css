@@ -9,4 +9,14 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: black;
+}
+
+section {
+  background-image: url(./images/space.png);
+  width: 58%;
+}
+
+nav {
+  background-color: rgb(2, 2, 48);
 }
