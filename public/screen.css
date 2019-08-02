@@ -7,20 +7,25 @@ html {
 }
 
 body {
-  margin: 7rem;
   min-height: 100%;
   background-color: black;
   background-image: url(./images/space.png);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 15rem;
 }
 
 blockquote {
   background-color: white;
   border: .4rem solid none;
-  border-radius: 5%;
-  padding: 2rem;
-  margin-top: -3rem;
+  border-radius: 6px;
+  padding: .5rem;
+  margin-top: -2rem;
+  opacity: .5;
+}
+
+.sub-title {
+  text-align: center;
 }
 
 .page-header {
@@ -45,10 +50,16 @@ header {
 
 .cards {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  align-content: center;
-  padding: 1rem;
+  padding: 2rem;
   margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+section>img {
+  height: 15rem;
+  width: 20rem;
 }
 
 nav {
@@ -56,15 +67,25 @@ nav {
 }
 
 .words-on-page {
-  color: aliceblue;
+  color: black;
+  background-color: aliceblue;
+}
+
+h2 {
+  margin: 0;
+}
+
+h2>p {
+  margin: 0;
 }
 
 .above-words {
-  color: aliceblue;
+  color: black;
+  background-color: aliceblue;
 }
 
 article>img {
-  height: 30;
+  /* height: 6rem; */
 }
 
 .bottom-half {
