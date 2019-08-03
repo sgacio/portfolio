@@ -124,6 +124,17 @@ div>blockquote {
   opacity: 1;
 }
 
+.read-more {
+  display: inline-block;
+  text-align: right;
+  margin-left: 85rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: rgb(100, 100, 230);
+  padding: 1rem;
+  position: relative;
+}
+
 #small-words {
   font-size: .8rem;
   margin-left: 1rem;
