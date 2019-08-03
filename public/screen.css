@@ -12,26 +12,32 @@ body {
   background-image: url(./images/space.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 15rem;
+  margin: 15rem 0 0 0;
 }
 
-blockquote {
+.my-name {
   background-color: white;
   border: .4rem solid none;
   border-radius: 6px;
-  padding: .5rem;
+  padding-right: 3rem;
+  padding-left: 1rem;
   margin-top: -2rem;
   opacity: .5;
 }
 
+h1 {
+  text-align: left;
+}
+
 .sub-title {
-  text-align: center;
+  text-align: left;
+  font-size: 1.4rem;
 }
 
 .page-header {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 0 0 2rem;
 }
 
 .top-image>img {
@@ -39,7 +45,7 @@ blockquote {
   border-radius: 10%;
   margin: 0;
   padding: 0;
-  height: 12rem;
+  height: 20rem;
 }
 
 header {
@@ -53,7 +59,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   padding: 2rem;
-  margin-top: 5rem;
+  margin: 5rem 0 0 0;
   background-color: rgba(0, 0, 0, 0.507);
 }
 
@@ -64,6 +70,8 @@ section>img {
 
 nav {
   margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .words-on-page {
@@ -71,31 +79,62 @@ nav {
   background-color: aliceblue;
 }
 
-h2 {
-  margin: 0;
-}
-
-h2>p {
-  margin: 0;
-}
-
 .above-words {
   color: black;
   background-color: aliceblue;
 }
 
-article>img {
-  /* height: 6rem; */
-}
-
-.bottom-half {
+.bottom-half-one {
+  background-image: url(./images/react-new.png);
+  height: 10rem;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  border: .4rem solid none;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+article {
+  margin: 1rem;
+}
+
+div>blockquote {
+  margin: 0rem .2rem 0rem 0rem;
+  opacity: 1;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  border: .4rem solid none;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  opacity: 1;
+}
+
+#small-words {
+  font-size: .8rem;
+  margin-left: 1rem;
+}
+
+.bottom-half-two {
+  background-image: url(./images/code-new.png);
+  height: 10rem;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  border: .4rem solid none;
+  border-radius: 6px;
 }
 
 footer {
   color: aliceblue;
   text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
