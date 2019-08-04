@@ -28,6 +28,24 @@ body {
   width: 20rem;
 }
 
+.test {
+  position: absolute;
+}
+
+.test::after {
+  position: relative;
+  content: "";
+  border-width: 1rem;
+  border-style: solid;
+  border-top-color: white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  bottom: -.1rem;
+  transform: rotate(143deg);
+  left: 2rem;
+}
+
 h1 {
   text-align: left;
 }
@@ -127,6 +145,7 @@ div>blockquote {
   opacity: 1;
 }
 
+
 .read-more {
   display: inline-block;
   text-align: right;
@@ -221,6 +240,7 @@ li {
     margin-left: 53rem;
   }
 }
+
 
 @media(min-width: 400px) and (max-width: 999px) {
   .top-image>img {
