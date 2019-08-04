@@ -24,6 +24,8 @@ body {
   margin-top: -2rem;
   opacity: .8;
   font-family: 'Roboto', sans-serif;
+  position: absolute;
+  width: 20rem;
 }
 
 h1 {
@@ -32,7 +34,7 @@ h1 {
 
 .sub-title {
   text-align: left;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .page-header {
@@ -95,6 +97,7 @@ nav {
 .bottom-half-one {
   background-image: url(./images/react-new.png);
   height: 10rem;
+  width: 92rem;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -114,7 +117,7 @@ article {
 div>blockquote {
   margin: 0rem .2rem -2rem 0rem;
   opacity: 1;
-  width: 100%;
+  width: 92rem;
   padding: 0;
   background-color: white;
   border: .4rem solid none;
@@ -144,6 +147,7 @@ div>blockquote {
 .bottom-half-two {
   background-image: url(./images/code-new.png);
   height: 10rem;
+  width: 92rem;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -160,4 +164,29 @@ footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
   font-family: 'Roboto', sans-serif;
+}
+
+.twitter-images {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#top-bottom {
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+
+#bottom-bottom {
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+
+ul>li>a>img {
+  height: 6rem;
+  border-radius: 100px;
+}
+
+li {
+  margin: 1rem;
 }
