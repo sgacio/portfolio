@@ -190,3 +190,34 @@ ul>li>a>img {
 li {
   margin: 1rem;
 }
+
+@media(min-width: 1000px) and (max-width: 1499px) {
+  header {
+    justify-content: left;
+    margin-left: 5rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-auto-rows: 26%;
+  }
+
+  div>blockquote {
+    width: 60rem;
+    height: 10rem;
+  }
+
+  .bottom-half-one {
+    width: 55rem;
+    height: 11rem;
+  }
+
+  .bottom-half-two {
+    width: 55rem;
+    height: 11rem;
+  }
+
+  .read-more {
+    margin-left: 53rem;
+  }
+}
